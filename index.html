@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Neon Notes</title>
+    <style>
+        :root {
+            --bg-color: #0f0f13;
+            --text-color: #d1d1d6;
+            --accent-color: #00f3ff;
+            --container-bg: #1a1a20;
+            --border-color: #2a2a35;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background-color: var(--container-bg);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+            border: 1px solid var(--border-color);
+            box-sizing: border-box;
+        }
+
+        h1 {
+            color: var(--accent-color);
+            font-size: 2.2rem;
+            margin-top: 0;
+            margin-bottom: 5px;
+            text-shadow: 0 0 12px rgba(0, 243, 255, 0.3);
+        }
+
+        h2 {
+            color: #ffffff;
+            font-size: 1.4rem;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .last-updated {
+            color: #8e8e93;
+            font-size: 0.9rem;
+            margin-bottom: 30px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        ul {
+            margin-top: 0;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .permission-item {
+            margin-bottom: 20px;
+        }
+
+        .permission-title {
+            color: var(--accent-color);
+            font-weight: 600;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+            transition: text-shadow 0.2s ease;
+        }
+
+        a:hover {
+            text-shadow: 0 0 8px rgba(0, 243, 255, 0.6);
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 25px 20px;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Privacy Policy for Neon Notes</h1>
+            <p class="last-updated">Last updated: May 9, 2025</p>
+        </header>
+
+        <main>
+            <p>This Privacy Policy explains how Neon Notes ("the app") handles your information. Please read it carefully.</p>
+
+            <section>
+                <h2>1. No Data Collection</h2>
+                <p>Neon Notes does not collect, transmit, or share any personal data.</p>
+                <ul>
+                    <li>The app has no internet permission.</li>
+                    <li>No analytics, crash reporting, or tracking libraries are used.</li>
+                    <li>No account or sign-in is required.</li>
+                    <li>Nothing you write in the app is sent anywhere.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>2. Data Storage</h2>
+                <ul>
+                    <li>All notes, tasks, and settings are stored locally on your device only.</li>
+                    <li>The local database is encrypted using AES-256.</li>
+                    <li>Backup files created by the app are stored on your device's storage. You control where these files go and who has access to them.</li>
+                    <li>Portable backups are encrypted with a password you choose.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>3. Permissions Used</h2>
+                
+                <div class="permission-item">
+                    <span class="permission-title">Storage (Android 9 and below only)</span>
+                    Used to save backup files to your device's Downloads folder. Not used on Android 10 and above.
+                </div>
+
+                <div class="permission-item">
+                    <span class="permission-title">Biometric / Fingerprint</span>
+                    Used only for the optional app lock feature. Biometric data never leaves your device and is handled entirely by Android's built-in BiometricPrompt API. The app never stores or accesses your biometric data directly.
+                </div>
+            </section>
+
+            <section>
+                <h2>4. Third-Party Services</h2>
+                <p>Neon Notes does not use any third-party services, SDKs, or APIs. There are no ads, no analytics, and no cloud sync.</p>
+            </section>
+
+            <section>
+                <h2>5. Children's Privacy</h2>
+                <p>Neon Notes does not collect any data from anyone, including children. The app is suitable for all ages.</p>
+            </section>
+
+            <section>
+                <h2>6. Data Deletion</h2>
+                <ul>
+                    <li>Delete individual notes or tasks at any time within the app.</li>
+                    <li>Empty the recycle bin to permanently remove deleted items.</li>
+                    <li>Uninstalling the app removes all app data from your device.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>7. Changes to This Policy</h2>
+                <p>If this policy changes, the updated version will be posted at the same URL with a revised "Last updated" date.</p>
+            </section>
+
+            <section>
+                <h2>8. Contact</h2>
+                <p>If you have any questions about this Privacy Policy, contact: <br>
+                <a href="mailto:neonnotes.contact@gmail.com">neonnotes.contact@gmail.com</a></p>
+            </section>
+        </main>
+    </div>
+
+</body>
+</html>
