@@ -1,185 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Neon Notes</title>
-    <style>
-        :root {
-            --bg-color: #0f0f13;
-            --text-color: #d1d1d6;
-            --accent-color: #00f3ff;
-            --container-bg: #1a1a20;
-            --border-color: #2a2a35;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            display: flex;
-            justify-content: center;
-        }
-
-        .container {
-            max-width: 800px;
-            width: 100%;
-            background-color: var(--container-bg);
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
-            border: 1px solid var(--border-color);
-            box-sizing: border-box;
-        }
-
-        h1 {
-            color: var(--accent-color);
-            font-size: 2.2rem;
-            margin-top: 0;
-            margin-bottom: 5px;
-            text-shadow: 0 0 12px rgba(0, 243, 255, 0.3);
-        }
-
-        h2 {
-            color: #ffffff;
-            font-size: 1.4rem;
-            margin-top: 40px;
-            margin-bottom: 15px;
-            padding-bottom: 8px;
-            border-bottom: 1px solid var(--border-color);
-        }
-
-        .last-updated {
-            color: #8e8e93;
-            font-size: 0.9rem;
-            margin-bottom: 30px;
-        }
-
-        p {
-            margin-bottom: 15px;
-        }
-
-        ul {
-            margin-top: 0;
-            padding-left: 20px;
-        }
-
-        li {
-            margin-bottom: 10px;
-        }
-
-        .permission-item {
-            margin-bottom: 20px;
-        }
-
-        .permission-title {
-            color: var(--accent-color);
-            font-weight: 600;
-            display: block;
-            margin-bottom: 5px;
-        }
-
-        a {
-            color: var(--accent-color);
-            text-decoration: none;
-            transition: text-shadow 0.2s ease;
-        }
-
-        a:hover {
-            text-shadow: 0 0 8px rgba(0, 243, 255, 0.6);
-            text-decoration: underline;
-        }
-
-        @media (max-width: 600px) {
-            .container {
-                padding: 25px 20px;
-            }
-            h1 {
-                font-size: 1.8rem;
-            }
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Neon Notes Privacy Policy</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #1d1d22;
+      --muted: #5c5c66;
+      --line: #e4e4ea;
+      --accent: #0a84a8;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0a0a0f;
+        --text: #e8e8ee;
+        --muted: #9a9aa6;
+        --line: #26262e;
+        --accent: #3fd8ff;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 40px 16px 56px;
+    }
+    h1 {
+      margin: 0 0 4px;
+      font-size: 28px;
+      line-height: 1.25;
+    }
+    h2 {
+      margin: 32px 0 8px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+      font-size: 17px;
+      letter-spacing: 0.02em;
+    }
+    p { margin: 0 0 12px; }
+    ul { margin: 0 0 12px; padding-left: 22px; }
+    li { margin: 0 0 8px; }
+    .date { color: var(--muted); font-size: 14px; margin-bottom: 24px; }
+    .short {
+      margin-top: 32px;
+      padding: 14px 16px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+    }
+    a { color: var(--accent); }
+  </style>
 </head>
 <body>
-
-    <div class="container">
-        <header>
-            <h1>Privacy Policy for Neon Notes</h1>
-            <p class="last-updated">Last updated: May 9, 2025</p>
-        </header>
-
-        <main>
-            <p>This Privacy Policy explains how Neon Notes ("the app") handles your information. Please read it carefully.</p>
-
-            <section>
-                <h2>1. No Data Collection</h2>
-                <p>Neon Notes does not collect, transmit, or share any personal data.</p>
-                <ul>
-                    <li>The app has no internet permission.</li>
-                    <li>No analytics, crash reporting, or tracking libraries are used.</li>
-                    <li>No account or sign-in is required.</li>
-                    <li>Nothing you write in the app is sent anywhere.</li>
-                </ul>
-            </section>
-
-            <section>
-                <h2>2. Data Storage</h2>
-                <ul>
-                    <li>All notes, tasks, and settings are stored locally on your device only.</li>
-                    <li>The local database is encrypted using AES-256.</li>
-                    <li>Backup files created by the app are stored on your device's storage. You control where these files go and who has access to them.</li>
-                    <li>Portable backups are encrypted with a password you choose.</li>
-                </ul>
-            </section>
-
-            <section>
-                <h2>3. Permissions Used</h2>
-                
-                <div class="permission-item">
-                    <span class="permission-title">Storage (Android 9 and below only)</span>
-                    Used to save backup files to your device's Documents folder. Not used on Android 10 and above.
-                </div>
-
-                <div class="permission-item">
-                    <span class="permission-title">Biometric / Fingerprint</span>
-                    Used only for the optional app lock feature. Biometric data never leaves your device and is handled entirely by Android's built-in BiometricPrompt API. The app never stores or accesses your biometric data directly.
-                </div>
-            </section>
-
-            <section>
-                <h2>4. Third-Party Services</h2>
-                <p>Neon Notes does not use any third-party services, SDKs, or APIs. There are no ads, no analytics, and no cloud sync.</p>
-            </section>
-
-            <section>
-                <h2>5. Children's Privacy</h2>
-                <p>Neon Notes does not collect any data from anyone, including children. The app is suitable for all ages.</p>
-            </section>
-
-            <section>
-                <h2>6. Data Deletion</h2>
-                <ul>
-                    <li>Delete individual notes or tasks at any time within the app.</li>
-                    <li>Empty the recycle bin to permanently remove deleted items.</li>
-                    <li>Uninstalling the app removes all app data from your device.</li>
-                </ul>
-            </section>
-
-            <section>
-                <h2>7. Changes to This Policy</h2>
-                <p>If this policy changes, the updated version will be posted at the same URL with a revised "Last updated" date.</p>
-            </section>
-
-            <section>
-                <h2>8. Contact</h2>
-                <p>If you have any questions about this Privacy Policy, contact: <br>
-                <a href="mailto:neonnotes.contact@gmail.com">neonnotes.contact@gmail.com</a></p>
-            </section>
-        </main>
-    </div>
-
+  <main>
+    <h1>Neon Notes Privacy Policy</h1>
+    <p class="date"><strong>Effective Date:</strong> September 2026</p>
+    <p>Neon Notes is designed with a simple philosophy: <strong>Your data belongs to you.</strong> Your notes, tasks, Lists, and Spaces stay on your device and under your control. This policy also explains the few places where Google services are involved.</p>
+    <h2>1. NO DATA COLLECTION BY US</h2>
+    <p>Neon Notes has no account, no sign-in, and no servers of its own. We cannot see, collect, or sell your notes, tasks, Lists, Spaces, or personal information.</p>
+    <ul>
+      <li><strong>No Analytics:</strong> Neon Notes has no analytics or tracking of its own.</li>
+      <li><strong>No Ads:</strong> There are no ads and no advertising networks.</li>
+      <li><strong>No Cloud Sync:</strong> Your content is never uploaded to any server.</li>
+    </ul>
+    <h2>2. LOCAL STORAGE</h2>
+    <p>All your notes, tasks, Lists, Spaces, fonts, themes, and settings are stored <strong>on your device</strong> in the app's private storage.</p>
+    <ul>
+      <li><strong>Sandboxed Environment:</strong> Other apps cannot read Neon Notes' private data.</li>
+      <li><strong>Your Choice:</strong> Content leaves the app only when you export, share, or back it up yourself.</li>
+      <li><strong>Android Backup:</strong> Your notes, tasks, Lists, and PIN are not included in Android's Google account backup. Android's phone-to-phone transfer may copy your content to your new phone.</li>
+      <li><strong>Deletion:</strong> Uninstalling the app permanently deletes all data stored inside it. Exports and backups you saved elsewhere stay until you delete them.</li>
+    </ul>
+    <h2>3. SCREEN TEXT (PREMIUM)</h2>
+    <p>Screen Text copies text from your screen or from a photo you pick.</p>
+    <ul>
+      <li><strong>Your Permission Every Time:</strong> Android asks for your permission before every capture. Neon Notes takes one screenshot and stops right away. A notification is shown while it captures.</li>
+      <li><strong>Read On Your Device:</strong> Text is recognized on your device by Google ML Kit, part of Google Play services. Your screenshots and the recognized text are never sent to Google or to us.</li>
+      <li><strong>Short-Lived:</strong> The screenshot is kept in the app's private storage only while you select text, and is deleted when you finish or cancel. A screenshot left by an interrupted capture is removed automatically later.</li>
+      <li><strong>Scan Image:</strong> You pick one photo in Android's photo picker. Only that photo is read, on your device, and its private copy is deleted when you finish or cancel.</li>
+      <li><strong>Google Diagnostics:</strong> After you agree, Google Play services downloads the text recognition component once. ML Kit also sends Google limited diagnostic data, such as device and app information, a device identifier, performance measurements, and error codes, over an encrypted connection. Google uses it for diagnostics and usage analytics. It never includes your screenshots or text.</li>
+    </ul>
+    <h2>4. PREMIUM PURCHASE</h2>
+    <p>Premium is an optional one-time purchase through Google Play.</p>
+    <ul>
+      <li><strong>Handled by Google:</strong> Google Play processes the payment. We never see your card or payment details.</li>
+      <li><strong>Stored Locally:</strong> Neon Notes only asks Google Play whether Premium was bought, and remembers the answer on your device so Premium also works offline.</li>
+      <li><strong>Google's Policy:</strong> Google's Privacy Policy applies to purchases made through Google Play.</li>
+    </ul>
+    <h2>5. PERMISSIONS</h2>
+    <p>We ask only for what a feature needs:</p>
+    <ul>
+      <li><strong>Notifications:</strong> Task reminders and the short Screen Text capture notice.</li>
+      <li><strong>Alarms &amp; Reminders:</strong> Deliver task reminders at the exact time you set.</li>
+      <li><strong>Run at Startup:</strong> Restore your reminders after the phone restarts.</li>
+      <li><strong>Screen Capture:</strong> Used only by Screen Text, and only after you approve Android's prompt.</li>
+      <li><strong>Fingerprint or Face Unlock:</strong> Optional for App Lock. Android checks it; Neon Notes never receives your biometric data.</li>
+      <li><strong>Files:</strong> You pick files and folders in Android's file picker to import notes, fonts, or background photos, and to save exports and backups. Neon Notes cannot browse your other files, photos, or contacts. Android 9 and older also use storage permission for this.</li>
+    </ul>
+    <h2>6. SHARING &amp; LINKS</h2>
+    <ul>
+      <li><strong>Sharing:</strong> A shared note, task, List, or styled image goes only to the app you choose.</li>
+      <li><strong>Feedback:</strong> Feedback opens your own email app. App version, Android version, and phone model are added only if you turn that option on.</li>
+      <li><strong>Links:</strong> Rate, support, and Google Play links open outside the app, where those services' own privacy policies apply.</li>
+    </ul>
+    <h2>7. SECURITY &amp; ENCRYPTION</h2>
+    <p>Your device's lock screen is your first protection. Neon Notes adds:</p>
+    <ul>
+      <li><strong>App Lock:</strong> Your optional PIN is stored only as a salted one-way hash on your device.</li>
+      <li><strong>Encrypted Backups:</strong> Standard backups are encrypted with a key kept on this device. Portable backups are protected by a password you choose; we cannot recover a lost password.</li>
+      <li><strong>Auto-Backups:</strong> Saved to your device storage or a folder you choose, on the schedule you pick. You can turn them off.</li>
+    </ul>
+    <h2>8. CHILDREN'S PRIVACY</h2>
+    <p>Neon Notes does not collect personal information from anyone, including children.</p>
+    <h2>9. CHANGES</h2>
+    <p>When this policy changes, the updated version appears in the app with a new effective date.</p>
+    <h2>10. CONTACT</h2>
+    <p>For questions about this policy, please contact:<br>
+      <a href="mailto:neonnotes.contact@gmail.com">neonnotes.contact@gmail.com</a></p>
+    <p class="short"><strong>In Short:</strong> No account. No ads. No tracking by us. Your notes stay on your device.</p>
+  </main>
 </body>
 </html>
